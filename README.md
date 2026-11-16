@@ -1,17 +1,13 @@
 <p align="center"><img src="https://d7team.com/icon-512.png" width="88" alt="Delta Seven"></p>
 <h1 align="center">Pause Menu</h1>
 <p align="center"><b>Free FiveM pause menu for QBCore, QBox & ESX</b></p>
-<p align="center"><a href="#english">English</a> · <a href="#arabic">العربية</a></p>
-
 <p align="center"><img src="images/preview.webp" alt="Pause Menu" width="860"></p>
-
-<a id="english"></a>
 
 ## Pause Menu: free FiveM pause menu for QBCore, QBox & ESX
 
 A clean pause menu that opens with ESC or P. It shows the player's character, job, money, the game time and the weather, and gives them Map, Settings, Rules and Leave in one place.
 
-[Download](https://github.com/d7teamdev/fivem-pause-menu/releases/latest) · [Website](https://d7team.com) · [Discord](https://discord.gg/d-7)
+[Download](https://github.com/d7teamdev/fivem-pause-menu/archive/refs/heads/main.zip) · [Website](https://d7team.com) · [Discord](https://discord.gg/d-7)
 
 ### At a glance
 
@@ -42,8 +38,8 @@ A clean pause menu that opens with ESC or P. It shows the player's character, jo
 
 ### Installation
 
-1. Download `d7-pausemenu-1.0.0.zip` from [Releases](https://github.com/d7teamdev/fivem-pause-menu/releases/latest).
-2. Put the `d7-pausemenu` folder in your `resources` folder. Keep the folder name `d7-pausemenu`: under any other name it does not start.
+1. Download it: the green **Code** button → **Download ZIP** (or `d7-pausemenu-1.0.0.zip` from [Releases](https://github.com/d7teamdev/fivem-pause-menu/releases/latest)).
+2. Put the `d7-pausemenu` folder from it in your `resources` folder. Keep the folder name `d7-pausemenu`: under any other name it does not start.
 3. In `server.cfg`, start it after your framework:
 
    ```cfg
@@ -86,87 +82,6 @@ Support is on our Discord: [discord.gg/d-7](https://discord.gg/d-7). Issues are 
 - [Advanced MDT](https://github.com/d7teamdev/advanced-mdt): FiveM Police MDT for QBCore, QBox, ESX & CFW
 - [Advanced BossMenu](https://github.com/d7teamdev/advanced-bossmenu): FiveM Boss Menu for QBCore, QBox, ESX & CFW
 - [Advanced Multicharacter](https://github.com/d7teamdev/advanced-multicharacter): FiveM Multicharacter for QBCore, QBox, ESX & CFW
-
----
-
-<a id="arabic"></a>
-
-<div dir="rtl">
-
-## منيو التوقف: منيو توقف مجاني لفايف ام على QBCore و QBox و ESX
-
-منيو توقف يفتح بزر ESC أو P. يعرض شخصية اللاعب ووظيفته وفلوسه ووقت اللعبة والجو، وفيه الخريطة والإعدادات والقوانين والخروج بمكان واحد.
-
-[التحميل](https://github.com/d7teamdev/fivem-pause-menu/releases/latest) · [الموقع](https://d7team.com/ar) · [الدسكورد](https://discord.gg/d-7)
-
-### نظرة سريعة
-
-| | |
-|---|---|
-| **السعر** | مجاني |
-| **يشتغل مع** | QBCore و QBox و ESX |
-| **يفتح بـ** | ESC أو P |
-| **اللغة** | الإنجليزي |
-| **قاعدة البيانات** | ما يحتاج |
-
-### المميزات
-
-- اسم السيرفر، واسم الشخصية، ووظيفتها ورتبتها، والعصابة، ورقم المواطن (ESX ما فيه رقم مواطن ولا عصابة)
-- الكاش والبنك بالزاوية فوق
-- وقت اللعبة والجو
-- **Resume** و **Map** و **Settings** تفتح صفحات اللعبة نفسها
-- **Rules**: قوانين سيرفرك، تكتبها بالكونفق
-- **Leave the city**: يسأل أول، بعدين يطلّع اللاعب برسالتك
-- هود اللعبة والخريطة الصغيرة يختفون وهو مفتوح
-- الألوان من الكونفق
-- لوق دسكورد لما لاعب يطلع من المنيو
-- exports لسكربتاتك: ⁦`IsOpen()`⁩ و ⁦`Close()`⁩ و ⁦`Block(true / false)`⁩
-
-### المتطلبات
-
-- سيرفر QBCore أو QBox أو ESX
-
-### التثبيت
-
-1. حمّل ⁦`d7-pausemenu-1.0.0.zip`⁩ من [Releases](https://github.com/d7teamdev/fivem-pause-menu/releases/latest).
-2. حط مجلد ⁦`d7-pausemenu`⁩ في مجلد ⁦`resources`⁩. خلّ اسم المجلد ⁦`d7-pausemenu`⁩ مثل ما هو، بأي اسم ثاني ما يشتغل.
-3. في ⁦`server.cfg`⁩، شغّله بعد الفريم وورك:
-
-</div>
-
-```cfg
-ensure d7-pausemenu
-```
-
-<div dir="rtl">
-
-4. عدّل ⁦`config/config.lua`⁩ (اسم السيرفر، القوانين، رسالة الخروج، الألوان، ويب هوك الدسكورد).
-5. سوّ ريستارت للسيرفر.
-
-### الإعدادات
-
-⁦`config/config.lua`⁩ و ⁦`locales.lua`⁩ مفتوحة، وباقي الكود محمي.
-
-| الإعداد | وش يسوي |
-|---|---|
-| ⁦`Config.ServerName`⁩ | الاسم فوق المنيو. فاضي: اسم سيرفرك (⁦`sv_projectName`⁩) |
-| ⁦`Config.Rules`⁩ | سطور صفحة القوانين. فاضي: ما يطلع زر القوانين |
-| ⁦`Config.ExitMessage`⁩ | الرسالة اللي يشوفها اللاعب لما يطلع من المنيو |
-| ⁦`Config.Colors`⁩ | ⁦`Primary`⁩ للأيقونات والسطر المختار، و ⁦`Secondary`⁩ لرقم المواطن |
-| ⁦`Config.Webhooks`⁩ | روابط ويب هوك الدسكورد: ⁦`leave`⁩، أو ⁦`default`⁩ للكل. فاضي: ما فيه لوق |
-
-### الدعم
-
-الدعم على الدسكورد حقنا: [discord.gg/d-7](https://discord.gg/d-7). الـ Issues مقفلة بهذا المستودع عشان ما يضيع أي طلب بدون رد
-
-### منتجات ثانية من دلتا سفن
-
-- [لوحة دلتا](https://github.com/d7teamdev/delta-panel): لوحة تحكم سيرفرات فايف ام لـ QBCore و QBox و ESX و vRP
-- [ام دي تي متطور](https://github.com/d7teamdev/advanced-mdt): سكربت MDT للشرطة في فايف ام لـ QBCore و QBox و ESX و CFW
-- [بوس منيو متطور](https://github.com/d7teamdev/advanced-bossmenu): سكربت بوس منيو فايف ام لـ QBCore و QBox و ESX و CFW
-- [ملتي كركتر متطور](https://github.com/d7teamdev/advanced-multicharacter): سكربت ملتي كركتر فايف ام لـ QBCore و QBox و ESX و CFW
-
-</div>
 
 ---
 

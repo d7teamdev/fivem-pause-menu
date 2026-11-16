@@ -1,0 +1,23 @@
+Locales = Locales or {}
+Locales.en = {
+    resume = 'Resume',
+    map = 'Map',
+    map_sub = 'The city and your waypoints',
+    settings = 'Settings',
+    settings_sub = 'Graphics, sound, keys',
+    rules = 'Rules',
+    rules_sub = 'The city\'s rules',
+    exit = 'Leave the city',
+    exit_sub = 'Disconnect from the server',
+    exit_sure = 'Leave the city now?',
+    exit_yes = 'Leave',
+    cancel = 'Cancel',
+    unemployed = 'Unemployed',
+    citizen_id = 'Citizen ID',
+    job = 'Job',
+    gang = 'Gang',
+    back = 'Back', 
+    w_EXTRASUNNY = 'Sunny', w_CLEAR = 'Clear', w_CLOUDS = 'Cloudy', w_OVERCAST = 'Overcast', w_RAIN = 'Rain',
+    w_THUNDER = 'Thunder', w_CLEARING = 'Clearing', w_SMOG = 'Smog', w_FOGGY = 'Fog', w_SNOW = 'Snow',
+    w_SNOWLIGHT = 'Light snow', w_BLIZZARD = 'Blizzard', w_XMAS = 'Snow', w_HALLOWEEN = 'Halloween', w_NEUTRAL = 'Mild',
+}
